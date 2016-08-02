@@ -15,6 +15,9 @@
 		60383AA11D504A9A006B52CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60383A9F1D504A9A006B52CB /* LaunchScreen.storyboard */; };
 		60383AAC1D504A9A006B52CB /* AccessingMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60383AAB1D504A9A006B52CB /* AccessingMapsTests.m */; };
 		60383AB71D504A9A006B52CB /* AccessingMapsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60383AB61D504A9A006B52CB /* AccessingMapsUITests.m */; };
+		60383AC51D504F3C006B52CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60383AC41D504F3C006B52CB /* MapKit.framework */; };
+		60383AC71D504F71006B52CB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60383AC61D504F71006B52CB /* CoreLocation.framework */; };
+		60383ACA1D505081006B52CB /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60383AC91D505081006B52CB /* MapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		60383AB21D504A9A006B52CB /* AccessingMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessingMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60383AB61D504A9A006B52CB /* AccessingMapsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessingMapsUITests.m; sourceTree = "<group>"; };
 		60383AB81D504A9A006B52CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60383AC41D504F3C006B52CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		60383AC61D504F71006B52CB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		60383AC81D505081006B52CB /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		60383AC91D505081006B52CB /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60383AC71D504F71006B52CB /* CoreLocation.framework in Frameworks */,
+				60383AC51D504F3C006B52CB /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 		60383A851D504A9A006B52CB = {
 			isa = PBXGroup;
 			children = (
+				60383AC61D504F71006B52CB /* CoreLocation.framework */,
+				60383AC41D504F3C006B52CB /* MapKit.framework */,
 				60383A901D504A9A006B52CB /* AccessingMaps */,
 				60383AAA1D504A9A006B52CB /* AccessingMapsTests */,
 				60383AB51D504A9A006B52CB /* AccessingMapsUITests */,
@@ -106,6 +117,8 @@
 				60383A971D504A9A006B52CB /* ViewController.h */,
 				60383A981D504A9A006B52CB /* ViewController.m */,
 				60383A9A1D504A9A006B52CB /* Main.storyboard */,
+				60383AC81D505081006B52CB /* MapAnnotation.h */,
+				60383AC91D505081006B52CB /* MapAnnotation.m */,
 				60383A9D1D504A9A006B52CB /* Assets.xcassets */,
 				60383A9F1D504A9A006B52CB /* LaunchScreen.storyboard */,
 				60383AA21D504A9A006B52CB /* Info.plist */,
@@ -273,6 +286,7 @@
 				60383A991D504A9A006B52CB /* ViewController.m in Sources */,
 				60383A961D504A9A006B52CB /* AppDelegate.m in Sources */,
 				60383A931D504A9A006B52CB /* main.m in Sources */,
+				60383ACA1D505081006B52CB /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
